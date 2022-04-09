@@ -20,18 +20,6 @@ function shuffle(array) {
 
   return array;
 }
-let clicks = 0
-
-function onWindowClick() {
-  clicks += 1
-  if(clicks % 3 == 0){
-    window.open("gabor", "_blank")
-  }
-}
-
-// async function openQuotes() {
-//   await new Promise(r => setTimeout(r, 1000)).then(() => {window.open("gabor", "_blank")})
-// }
 
 function App() {
   return (
@@ -40,12 +28,6 @@ function App() {
         <p>{line}</p>
       )
       )}
-
-
-      {
-        window.addEventListener("click", onWindowClick)
-      }
-
     </div>
   );
 }
