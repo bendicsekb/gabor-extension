@@ -7,8 +7,7 @@
   },
   "permissions": [
     "tabs",
-    "activeTab",
-    "scripting"
+    "activeTab"
   ],
   "action": {},
   "content_scripts": [
